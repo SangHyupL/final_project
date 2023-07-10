@@ -128,6 +128,12 @@ IaC와 CI/CD, 모니터링 기술 스택은 대중적인 스택이라 이번 프
  - Pod들이 확장될때, 스케쥴링이 어떻게 되고, 어떤 정책에 따라 Replica Set들이 배치되는가
  - 현재로써는 EKS가 managed service라 자동적으로 node를 확장하고 pod들을 배치한다
  - 하지만 이에 대한 명확한 이해가 필요하며, 정책을 명확히 할 필요가 있다
+#### Nat Gateway와 VPC Endpoint의 차이점
+ - 현재  Nat Gateway와 Dynamodb 연결을 위한 VPC Endpoint 두 개를 쓰고 있는 상황
+ - DynamoDB는 VPC 내에 위치한 경우에도 인터넷을 통해 액세스할 수 있음.
+ - 따라서 Nat Gateway를 통해 VPC 내의 인스턴스가 인터넷과 통신할 수 있으면, 해당 인스턴스는 Nat Gateway를 사용하여 DynamoDB와 통신 가능
+ - 하지만 현재 아키텍처에서 VPC Endpoint를 사용하여 프라이빗 서브넷 내의 인스턴스가 인터넷을 거치지 않고 직접 DynamoDB와 통신
+ - 즉 VPC Endpoint가 보안 및 트래픽 라우팅 측면에서 더 안전한 방법이다.
 
 
 
