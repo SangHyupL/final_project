@@ -10,6 +10,27 @@
 
 <br>
 
+# 💡 CI/CD 파이프라인 아키텍처 다이어그램
+![CICD 파이프라인](https://github.com/SangHyupL/final_project/assets/127010049/cae9ba84-062e-4422-914b-e2e73496d063)
+
+
+
+<br>
+
+# 💡 EKS Cluster 및 Database 아키텍처 다이어그램
+![EKS drawio](https://github.com/SangHyupL/final_project/assets/127010049/b81b6725-50df-4fe3-90d7-79c667182959)
+
+
+
+<br>
+
+# 💡 MSA 다이어그램
+![events (1)](https://github.com/SangHyupL/final_project/assets/127010049/0c92d0c1-de96-4f55-bfe2-bd9c95836ee4)
+
+
+
+<br>
+
 # 💻 프로젝트 소개
 트윕(트위치 미션관리 시스템)에서 영감을 받아, 스트리머에게 미션을 걸고, 미션 성공 실패에 따른 보상을 지급하는 서비스
 
