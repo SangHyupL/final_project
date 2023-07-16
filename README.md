@@ -18,7 +18,7 @@
 <br>
 
 # 💡 EKS Cluster, Database, 모니터링 아키텍처 다이어그램
-![EKS drawio](https://github.com/SangHyupL/final_project/assets/127010049/b81b6725-50df-4fe3-90d7-79c667182959)
+![EKS drawio](https://github.com/SangHyupL/final_project/assets/127010049/e33135e4-00b7-4eae-8166-ebb15ad8f384)
 
 
 
